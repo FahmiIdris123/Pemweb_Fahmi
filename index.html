@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Element Semantik</title>
+
+    <style>
+        li{
+            color: plum;
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            line-height: 2;
+        }
+        p{ 
+            color: blue;
+        }
+        header{
+            background-image: url(wpp.png);
+            opacity: 0,5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 style="color: blueviolet ;">FAHMI IDRIS</h1>
+                <!-- Navbar -->
+     <nav>
+        <ul type="none">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="artikel.html">Articel</a></li>
+            <li><a href="#contactme">Kontak saya</a></li>
+        </ul>
+     </nav>
+    </header>
+
+    <div class="card-lagu">
+        <h2>Lagu Lagu COOLBET</h2>
+        <p class="contoh-lagu">Alamak</p>
+        <p>lagu asik ami euy</p>
+        <button>Dengar sekarang</button>
+    </div>
+    
+    <div class="Lagu">
+        <p>Daftar <span class="highlight">Lagu</span></p>
+        <ul>
+            <li>King Slayer</li>
+            <li>Film out</li>
+        </ul>
+        <audio controls loop src="Kingslayer.mp3"></audio>
+        
+    </div>
+
+    <div class="Video">
+        <video controls width="800" height="640" src="여자친구 _ Labyrinth - GFRIEND _ Labyrinth (래버린스) - 퍼포먼스 - 스페셜클립 - Special Clip -  Performance.mp4">
+            Browsermu tidak mendukung tag video.
+        </video>
+    </div>
+
+     
+    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+
+    <div id="contactme">
+        <h3>Kontak Saya</h3>
+            <form action="">
+                <table border="1">
+                        <tr>
+                            <td>
+                                <label for="nama">Nama:</label><br>
+                            </td>
+                            <td>
+                                <input type="text" id="nama" name="nama"><br>
+                            </td>
+                        </tr>
+                    <tr>
+                            <td>
+                                <label for="nim">NIM</label>
+                            </td>
+                        <td>
+                            <input type="number" id="nim" name="nim"><br>
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <label for="Jeniskelamin">Gender:</label>
+                    </td>
+                    <td><input type="radio" name="Jeniskelamin" value="Pria">Pria
+                        <br><input type="radio" name="Jeniskelamin"  value="Wanita">Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Hobi">Hobi</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Hobi">Makan
+                        <input type="checkbox" name="Hobi">bobo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Prodi">Prodi</label>
+                    </td>
+                    <td>
+                        <select name="prodi" id="prodi">
+                            <option value="IlmuKomputer">Ilmu Komputer</option>
+                            <option value="CS" selected>CS</option>
+                            <option value="IlmuKomunikasi">Ilmu Komunikasi</option>
+                        </select>
+                    </td>
+                </tr>
+            </tr>
+                </table>
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy 2025 Fahmi . Semua hak cipta Dilindungi</p>
+    </footer>
+</body>
+</html>

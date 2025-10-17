@@ -1,0 +1,50 @@
+.card-lagu{
+    width: 300px;
+    padding: 40px;
+    margin: 30px;
+    border: 1px solid;
+    border-color: black;
+    
+    border-radius: 10px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.card-lagu .contoh-lagu{
+    font-size: x-large;
+    font-weight: bolder;
+    color: green;
+}
+
+.card-lagu button{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card-lagu button:hover{
+    background-color: antiquewhite;
+}
+
+/* body{
+    background-image: url(wpp.png);
+    background-repeat: repeat;
+    background-size: cover;
+} */
+
+li::marker{
+    color: lime;
+    font-size: 20px;
+}
+
+p::first-letter{
+    color: limegreen;
+    font-size: xx-large;
+}
+
+p::first-line{
+    color: blueviolet;
+    font-size: x-large;
+}
+
